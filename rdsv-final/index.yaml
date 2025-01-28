@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ctrlchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-23T20:11:04.574102948+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 09899b4a0ce41dbd1e32836109adbed8e08705fe0d90ade1eb36749e3e8ddcb7
+    name: ctrlchart
+    type: application
+    urls:
+    - http://127.0.0.1/ctrlchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-01-23T20:11:04.573623698+01:00"
