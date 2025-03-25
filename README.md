@@ -9,7 +9,8 @@ configuración, se han realizado una serie de cambios que nos han permitido el u
 controlador RYU hospedado en una KNF independiente, así como el control de calidad
 de servicio QoS mediante el uso de la aplicación qos simpleswitch 13.py o la captura de
 tr´afico ARP mediante arpwatch en los routers R1 y R2, entre otros.
-<img src="images/arquitecturaRed.png" width="600">
+
+<img src="imagenes/arquitecturaRed.png" width="600">
 
 
 ## Características Principales
@@ -28,7 +29,8 @@ tr´afico ARP mediante arpwatch en los routers R1 y R2, entre otros.
   - Servicio sdedge-qos.
 
   La siguiente imágen muestra los distintos servicios configurados desntro de cada uno de las Centrales de proximidad mediante Kubernetes Network Functions (KNF).
-  <img src="images/arquitecturaServicios.png" width="600">
+  
+  <img src="imagenes/arquitecturaServicios.png" width="600">
 
 
 ## Requisitos Previos
