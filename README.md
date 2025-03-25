@@ -3,6 +3,15 @@
 ## Descripción del Proyecto
 Este proyecto tiene como objetivo configurar los switches dentro de las KNFs para que sean controlados mediante OpenFlow desde el controlador SDN Ryu. Se busca garantizar la conectividad IPv4 dentro de la red corporativa y su acceso a Internet, además de gestionar la calidad del servicio mediante la API REST de Ryu. Adicionalmente, se implementa la captura de tráfico ARP en las sedes remotas utilizando "arpwatch". Todo el despliegue se encuentra automatizado mediante scripts.
 
+La siguiente figura muestra la arquitectura del escenario utilizado, proporcionando un
+esquema de los componentes principales y su interacción dentro de la red. A partir de esta
+configuración, se han realizado una serie de cambios que nos han permitido el uso de un
+controlador RYU hospedado en una KNF independiente, así como el control de calidad
+de servicio QoS mediante el uso de la aplicación qos simpleswitch 13.py o la captura de
+tr´afico ARP mediante arpwatch en los routers R1 y R2, entre otros.
+<img src="images/arquitecturaRed.png" width="600">
+
+
 ## Características Principales
 - Configuración de switches de las KNFs bajo control de OpenFlow desde Ryu.
 - Implementación de una nueva KNF con el controlador SDN Ryu.
@@ -17,6 +26,10 @@ Este proyecto tiene como objetivo configurar los switches dentro de las KNFs par
   - Helm charts.
   - KNF: ctrl.
   - Servicio sdedge-qos.
+
+  La siguiente imágen muestra los distintos servicios configurados desntro de cada uno de las Centrales de proximidad mediante Kubernetes Network Functions (KNF).
+  <img src="images/arquitecturaServicios.png" width="600">
+
 
 ## Requisitos Previos
 Para desplegar el entorno correctamente, se necesitan los siguientes requisitos:
