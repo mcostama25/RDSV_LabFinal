@@ -55,16 +55,4 @@ Para monitorear el tráfico ARP capturado en las sedes remotas:
 tail -f /var/log/arpwatch.log
 ```
 
-## Contribución
-Si deseas contribuir a este proyecto:
-1. Realiza un fork del repositorio.
-2. Crea una rama con tu nueva funcionalidad (`git checkout -b feature-nueva`).
-3. Realiza tus cambios y haz un commit (`git commit -m 'Añadir nueva funcionalidad'`).
-4. Envía un Pull Request.
-
-## Licencia
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo `LICENSE`.
-
-## Contacto
-Para dudas o sugerencias, puedes comunicarte con el equipo del proyecto a través de la sección de Issues en este repositorio o vía correo electrónico.
 
